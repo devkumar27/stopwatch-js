@@ -68,3 +68,23 @@ ul {
     align-items: center;
     width: 100%;
 }
+
+@media(max-width: 650px) {
+    .container {
+        border: none;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .controlBtns {
+        margin: 0 10px;
+    }
+    ul {
+        padding: 10px 20px;
+    }
+}
